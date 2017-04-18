@@ -1,0 +1,43 @@
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 400px;
+	width: 45%;
+}
+
+.salmon {
+	background-color: salmon;
+}
+
+.tomato {
+	background-color: tomato;
+}
+
+.cyan {
+	background-color: cyan;
+}
+
+.purple {
+	background-color: purple;
+}
+
+@media (max-width: 600px) {
+  .tomato {
+    display: none;
+  }
+ }
+
+  @media (max-width: 600px) {
+  .cyan {
+    display: none;
+  }
+ }
+
+  @media (min-width: 1000px) {
+  	.box {
+  		width: 100%;
+  }
+}
